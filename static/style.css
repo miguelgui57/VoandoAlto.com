@@ -1,0 +1,789 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#heading div h1 a{
+    display: flex;
+    align-items: center;
+}
+
+#heading .prin{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+#heading a{
+    color: white;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#heading ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    background: rgb(140, 140, 140);
+    display: block;
+    padding: 10px 50px 10px 50px;
+}
+#heading .entrar{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+
+}
+
+#heading {
+    background-image: url(https://images5.alphacoders.com/372/thumb-1920-372649.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#heading .h2{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 15px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+#heading .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading .content-box{
+    background: white;
+    text-align: center;
+    width: 900px;
+    height: 200px;
+    margin: 80px 15px 15px 15px;
+    border-radius: 8px;
+}
+
+nav input{
+    text-align: center;
+    margin: 10px;
+}
+
+#inputs {
+    display: flex;
+    justify-content:end;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 0px 15px 0;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#inputs .info2{
+    padding: 8px 7px 0 0;
+}
+
+#heading .pesquisa{
+    border-radius: 5px;
+    border-color: rgb(216, 216, 216);
+    font-size: 15px;
+    padding: 4px 0 4px 0;
+    margin: 5px 30px 5px 3px;
+    background: rgb(140, 140, 140);
+    color: rgb(175, 175, 175);
+}
+
+.pesquisa::placeholder{
+    color: rgb(175, 175, 175);
+}
+
+#heading .data{
+    border-radius: 5px;
+    border-color: rgb(216, 216, 216);
+    font-size: 15px;
+    padding: 4px 0 4px 0;
+    margin: 5px 20px 5px 3px;
+    background: rgb(140, 140, 140);
+    color: rgb(175, 175, 175);
+}
+
+
+
+#heading .h2{
+    font-size: 30px;
+}
+
+#heading .ul2{
+    font-size: 17px;
+    padding: 0 0 5px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Infos2 {
+    display: flex;
+    justify-content: center;
+}
+
+#Infos2 .content2-box{
+    margin: 10px 32px 25px 25px;
+}
+
+#heading2 {
+    float:left;
+    margin: 25px 25px 25px 25px;
+}
+
+#heading3{
+    float:left;
+    margin: 25px 25px 25px 25px;
+    box-sizing: border-box;
+}
+
+#heading4{
+    float:left;
+    margin: 25px 25px 25px 25px;
+    box-sizing: border-box;
+}
+
+#heading5{
+    float:left;
+    margin: 25px 25px 25px 25px;
+    box-sizing: border-box;
+}
+#heading6{
+    float:left;
+    margin: 25px 25px 25px 25px;
+    box-sizing: border-box;
+}
+#heading7{
+    float:left;
+    margin: 25px 25px 25px 25px;
+    box-sizing: border-box;
+}
+
+.h2novo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 35px 5px 20px 95px;
+}
+
+#h2novo2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 35px 5px 20px 95px;
+}
+
+.informação{
+    width: 350px;
+    height: 150px;
+    background: white;
+    border-radius: 0 0 10px 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+}
+
+.pacotes{
+    background-image: url(https://s3q7j5f5.stackpathcdn.com/wp-content/uploads/2021/04/praia-belissima-de-maceio.jpg);
+    width: 350px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(232, 232, 232) ;
+}
+
+#heading2 .maceio{
+    display: flex;
+    justify-content: flex-start;
+    padding: 17px 5px 5px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+#heading2 .diarias{
+    padding: 5px 5px 5px 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+
+#heading2 .QCF{
+    display: flex;
+    justify-content:flex-start;
+    padding: 5px 5px 3px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#heading2 .valor{
+    display: flex;
+    justify-content: flex-end;
+    padding: 3px 25px 5px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#heading2 .pagamento{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 25px 5px 15px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+.pacotes2{
+    background-image: url(https://magazine.zarpo.com.br/wp-content/uploads/2021/06/capa-praia-dos-carneiros-770x515.jpg);
+    width: 350px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px 10px 0 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(232, 232, 232) ;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+}
+
+#heading3 .PraiaDosCarneiros{
+    display: flex;
+    justify-content: flex-start;
+    padding: 17px 5px 5px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+#heading3 .diarias2{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px 5px 15px;
+}
+
+
+#heading3 .QCF2{
+    display: flex;
+    justify-content:flex-start;
+    padding: 5px 5px 3px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#heading3 .valor2{
+    display: flex;
+    justify-content: flex-end;
+    padding: 3px 25px 5px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#heading3 .pagamento2{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 25px 5px 15px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.pacotes3{
+    background-image: url(https://www.dicasdeviagem.com/wp-content/uploads/2019/05/telhado-azul-em-santorini-1500x983.jpg);
+    width: 350px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px 10px 0 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(232, 232, 232) ;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+}
+
+#heading4 .grecia{
+    display: flex;
+    justify-content: flex-start;
+    padding: 17px 5px 5px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+#heading4 .diarias3{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px 5px 15px;
+}
+
+
+#heading4 .QCF3{
+    display: flex;
+    justify-content:flex-start;
+    padding: 5px 5px 3px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#heading4 .valor3{
+    display: flex;
+    justify-content: flex-end;
+    padding: 3px 25px 5px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#heading4 .pagamento3{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 25px 5px 15px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.pacotes4{
+    background-image: url(http://www.fambrashalal.com.br/blog_port/wp-content/uploads/2018/09/vista-aerea-cidade-dubai-marina.jpg);
+    width: 350px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px 10px 0 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(232, 232, 232) ;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+}
+
+#heading5 .dubai{
+    display: flex;
+    justify-content: flex-start;
+    padding: 17px 5px 5px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+#heading5 .diarias4{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px 5px 15px;
+}
+
+
+#heading5 .QCF4{
+    display: flex;
+    justify-content:flex-start;
+    padding: 5px 5px 3px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#heading5 .valor4{
+    display: flex;
+    justify-content: flex-end;
+    padding: 3px 25px 5px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#heading5 .pagamento4{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 25px 5px 15px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+.pacotes5{
+    background-image: url(https://images.unsplash.com/photo-1626568941852-70bc179e493e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+    width: 350px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px 10px 0 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(232, 232, 232) ;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+}
+
+#heading6 .Rio-De-Janeiro{
+    display: flex;
+    justify-content: flex-start;
+    padding: 17px 5px 5px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+#heading6 .diarias5{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px 5px 15px;
+}
+
+
+#heading6 .QCF5{
+    display: flex;
+    justify-content:flex-start;
+    padding: 5px 5px 3px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#heading6 .valor5{
+    display: flex;
+    justify-content: flex-end;
+    padding: 3px 25px 5px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#heading6 .pagamento5{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 25px 5px 15px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+.pacotes6{
+    background-image: url(https://www.falandodeviagem.com.br/imagens21/MKKids2.jpg);
+    width: 350px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px 10px 0 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(232, 232, 232) ;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+}
+
+#heading7 .Orlando{
+    display: flex;
+    justify-content: flex-start;
+    padding: 17px 5px 5px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+#heading7 .diarias6{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px 5px 15px;
+}
+
+
+#heading7 .QCF6{
+    display: flex;
+    justify-content:flex-start;
+    padding: 5px 5px 3px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#heading7 .valor6{
+    display: flex;
+    justify-content: flex-end;
+    padding: 3px 25px 5px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#heading7 .pagamento6{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 25px 5px 15px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+#Voos{
+    display: inline-block;
+}
+
+#emgloba{
+    margin: 25px 25px 25px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.VoosVendas .dados1{
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 38px 0 10px 0;
+    color: white;
+}
+.VoosVendas .dados2{
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 15px 0;
+}
+.VoosVendas .dados3{
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+/* PORTO SEGURO*/
+#Voos .content3-box{
+    width: 250px; 
+    height: 300px ;
+    background-image: url(https://i.pinimg.com/564x/d2/53/15/d25315d2364fa4b4b9c4ad2c475a879c.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+    margin: 15px 20px 25px 25px;
+}
+#verMais{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 0 0;
+}
+
+#verMais .verMais2{
+    width: 150px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* FOZ DO IGUAÇU */
+#Voos .content4-box{
+    width: 250px; 
+    height: 300px ;
+    background-image: url(https://viagemeturismo.abril.com.br/wp-content/uploads/2016/11/pr101.jpeg?quality=70&strip=info) ;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+    margin: 15px 20px 25px 25px;
+}
+#verMais2{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 0 0;
+}
+#verMais2 .verMais3{
+    width: 150px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Fortaleza Beach Park*/
+#Voos .content5-box{
+    width: 250px; 
+    height: 300px ;
+    background-image: url(https://conteudo.imguol.com.br/c/entretenimento/11/2022/01/12/vista-geral-do-acqua-park-parque-aquatico-do-beach-park-1642005829685_v2_3x4.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+    margin: 15px 20px 25px 25px;
+}
+#verMais3{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 0 0;
+}
+#verMais3 .verMais4{
+    width: 150px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* México*/
+#Voos .content6-box{
+    width: 250px; 
+    height: 300px ;
+    background-image: url(https://sevagtur.com.br/wp-content/uploads/2022/02/beleza-cancun.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+    margin: 15px 20px 25px 25px;
+}
+#verMais4{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 0 0;
+}
+#verMais4 .verMais5{
+    width: 150px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*ESTADOS UNIDOS */
+#Voos .content7-box{
+    width: 250px; 
+    height: 300px ;
+    background-image: url(https://u3v8d4z2.stackpathcdn.com/wp-content/uploads/2015/01/Times-Square-manhattan-onde-ficar-29.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+    margin: 15px 20px 25px 25px;
+}
+#verMais5{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 0 0;
+}
+#verMais5 .verMais6{
+    width: 150px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*PORTO ALEGRE */
+#Voos .content8-box{
+    width: 250px; 
+    height: 300px ;
+    background-image: url(https://laghettohoteis.com.br/wp-content/uploads/2021/07/Laghetto-Hoteis-Porto-Alegre-5.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+    margin: 15px 20px 25px 25px;
+}
+#verMais6{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 0 0;
+}
+#verMais6 .verMais7{
+    width: 150px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*HOLANDA*/
+#Voos .content9-box{
+    width: 250px; 
+    height: 300px ;
+    background-image: url(https://www.eurodicas.com.br/wp-content/uploads/2018/02/cultura-da-holanda-1200x900.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+    margin: 15px 20px 25px 25px;
+}
+#verMais7{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 0 0;
+}
+#verMais7 .verMais8{
+    width: 150px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* FRANÇA*/
+#Voos .content10-box{
+    width: 250px; 
+    height: 300px ;
+    background-image: url(https://conteudo.imguol.com.br/c/entretenimento/85/2021/04/11/paris-franca-bandeira-1618151343181_v2_3x4.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: 5px 6px 5px rgb(208, 208, 208);
+    margin: 15px 20px 25px 25px;
+}
+#verMais8{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 0 0;
+}
+#verMais8 .verMais9{
+    width: 150px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
